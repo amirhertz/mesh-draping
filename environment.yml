@@ -1,0 +1,15 @@
+name: MeshDraping
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+- python>=3.8
+- igl
+- pip>=21
+- pip:
+   - tqdm
+   - vtk
+   - transforms3d
+   - pynput
+   - trimesh
+   - Rtree
